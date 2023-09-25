@@ -1,0 +1,47 @@
+/* dashboard.css */
+
+.dashboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .dashboard h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .latest-projects {
+    margin-top: 20px;
+  }
+  
+  .latest-projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .latest-projects li {
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .inprogress {
+    color: orange;
+  }
+  
+  .pending {
+    color: red;
+  }
+  
