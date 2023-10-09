@@ -1,0 +1,104 @@
+/* YourWorks.css */
+.your-works {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.activities {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+.activities h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.timestamp {
+  color: #888;
+}
+
+.works {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.title-yourWorks {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.artwork-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.artwork {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.artwork img {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+
+.artwork:hover img {
+  transform: scale(1.05);
+}
+
+.artwork p {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px;
+}
+
+/* Keyframe animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,146 @@
+/* Home.css */
+/* Add your existing CSS styles here */
+
+/* Animation for the hero section */
+.hero {
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+  background-color: #ffffff; /* Set a background color for the hero section */
+  text-align: center; /* Center-align text */
+}
+
+.hero-content {
+  flex: 1; /* Take up remaining space in the flex container */
+  padding: 20px;
+}
+
+.hero-image-container {
+  flex: 1; /* Take up remaining space in the flex container */
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center-align the image horizontally */
+}
+
+/* Style your text and button as needed */
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.btn.hero-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.hero-btn:hover {
+  background-color: #ff4040;
+}
+/* Animation for features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.feature-description {
+  color: #777;
+  animation: fadeIn 1s ease 0.5s;
+}
+
+/* Animation for CTA section */
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-title {
+  font-size: 2rem;
+  color: #333;
+  animation: fadeInUp 1s ease;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: fadeInUp 1s ease 0.5s;
+}
+
+.cta-btn:hover {
+  background-color: #303f9f;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
