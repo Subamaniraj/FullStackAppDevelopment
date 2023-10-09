@@ -1,0 +1,73 @@
+/* AssetsPage.css */
+.productCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+}
+
+.productCard {
+  width: calc(33.33% - 20px); /* Adjust the width as needed for your grid */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px); /* Add a slight hover effect */
+}
+
+.productImage {
+  height: 200px; /* Set a fixed height for the product images */
+  overflow: hidden;
+}
+
+.productImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images fit within the fixed height without stretching */
+}
+
+.textPart {
+  padding: 16px;
+}
+
+.productBrand {
+  font-size: 14px;
+  color: #888;
+}
+
+.productTitle {
+  font-size: 18px;
+  color: #333;
+  margin: 8px 0;
+}
+
+.priceInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.discountedPrice {
+  font-size: 20px;
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.originalPrice {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.discountPercentage {
+  font-size: 16px;
+  color: #4caf50;
+  font-weight: bold;
+}
