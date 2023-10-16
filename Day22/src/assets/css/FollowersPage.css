@@ -1,0 +1,68 @@
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Header row styles */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Odd row styles */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Even row styles */
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+/* FollowersPage.css */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7c96b3;
+}
+
+
+
